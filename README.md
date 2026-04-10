@@ -18,7 +18,7 @@ Description: Provides the function selectSingleSeriesFromStudy() and its helper 
 The standard configuration is set up to select the best suited scan for analysis with Sybil.
 
 Working principles:
-The selectSingleSeriesFromStudy() filters based on the following characteristics in the presented order (defaults in parantethis).
+The selectSingleSeriesFromStudy() filters based on the following characteristics in the presented order (defaults in parantheses).
 1. IV contrast (only_noncontrast)
 2. Slice thickness cutoffs ([0,2.5])
 3. Slice thickness (min)
