@@ -1,0 +1,112 @@
+Tag, description, example, comments,keep
+"(0008, 0005)", SpecificCharacterSet,ISO_IR 100,,j
+"(0008, 0008)", ImageType,"['ORIGINAL', 'PRIMARY', 'AXIAL', 'GSI MONO']",,j
+"(0008, 0016)", SOPClassUID,1.2.840.10008.5.1.4.1.1.2,,j
+"(0008, 0018)", SOPInstanceUID,1.2.826.0.1.3680043.6.1036.14388.20190718171957.416.26129,,j
+"(0008, 0060)", Modality,CT,,j
+"(0008, 0070)", Manufacturer,GE MEDICAL SYSTEMS,,j
+"(0008, 1030)", StudyDescription,CT ABDOMEN/PELVIS WITH CONTRAST,Careful with PHI,j
+"(0008, 103e)", SeriesDescription,ABP- MONO 65 KEV 5 MM STND,Careful with PHI,j
+"(0008, 1090)", ManufacturerModelName,Discovery CT750 HD,,j
+"(0008, 3010)", IrradiationEventUID,1.2.840.113619.2.340.3.464266216.529.1563403701.547,,j
+"(0018, 0022)", ScanOptions,HELICAL MODE,,j
+"(0018, 0050)", SliceThickness,5.0,,j
+"(0018, 0060)", KVP,140.0,Don't know what that is,j
+"(0018, 0088)", SpacingBetweenSlices,-5.0,,j
+"(0018, 0090)", DataCollectionDiameter,500.0,,j
+"(0018, 1040)", ContrastBolusRoute,Oral & IV,,j
+"(0018, 1100)", ReconstructionDiameter,360.0,,j
+"(0018, 1110)", DistanceSourceToDetector,1040.0,,j
+"(0018, 1111)", DistanceSourceToPatient,570.0,,j
+"(0018, 1120)", GantryDetectorTilt,0.0,,j
+"(0018, 1130)", TableHeight,104.9,,j
+"(0018, 1140)", RotationDirection,CW,,j
+"(0018, 1150)", ExposureTime,699.0,,j
+"(0018, 1151)", XRayTubeCurrent,375.0,,j
+"(0018, 1152)", Exposure,28.0,,j
+"(0018, 1160)", FilterType,MEDIUM FILTER,,j
+"(0018, 1170)", GeneratorPower,63000.0,,j
+"(0018, 1190)", FocalSpots,"[0.700000, 1.000000]",,j
+"(0018, 1210)", ConvolutionKernel,"['Bf36d', '3']",,j
+"(0018, 5100)", PatientPosition,FFS,,j
+"(0018, 9305)", RevolutionTime,0.7,,j
+"(0018, 9306)", SingleCollimationWidth,0.625,,j
+"(0018, 9307)", TotalCollimationWidth,40.0,,j
+"(0018, 9309)", TableSpeed,78.57142312186106,,j
+"(0018, 9310)", TableFeedPerRotation,54.999996185302734,,j
+"(0018, 9311)", SpiralPitchFactor,1.3749999046325683,,j
+"(0020, 000d)", StudyInstanceUID,1.2.124.113532.80.22200.7094.20190715.111341.330016702,,j
+"(0020, 000e)", SeriesInstanceUID,1.2.826.0.1.3680043.6.23982.24537.20190718171957.416.26058,,j
+"(0020, 0012)", AcquisitionNumber,2.0,,j
+"(0020, 0052)", FrameOfReferenceUID,1.2.840.113619.2.340.3.464266216.529.1563403701.414.17820.5,,j
+"(0020, 1041)", SliceLocation,-535.0,,j
+"(0020, 0032)", ImagePositionPatient,"[-120.000000, 120.000000, 55.000000]",,j
+"(0028, 0002)", SamplesPerPixel,1.0,,j
+"(0028, 0004)", PhotometricInterpretation,MONOCHROME2,,j
+"(0028, 0010)", Rows,512.0,,j
+"(0028, 0011)", Columns,512.0,,j
+"(0028, 0030)", PixelSpacing,"[0.703125, 0.703125]",,j
+"(0028, 0100)", BitsAllocated,16.0,,j
+"(0028, 0101)", BitsStored,16.0,,j
+"(0028, 0102)", HighBit,15.0,,j
+"(0028, 0103)", PixelRepresentation,1.0,,j
+"(0028, 0120)", PixelPaddingValue,-2000.0,,j
+"(0028, 1050)", WindowCenter,40.0,,j
+"(0028, 1051)", WindowWidth,400.0,,j
+"(0028, 1052)", RescaleIntercept,-1024.0,,j
+"(0028, 1053)", RescaleSlope,1.0,,j
+"(0028, 1054)", RescaleType,HU,,j
+"(0018, 1041)", ContrastBolusVolume,0.0,,j
+"(0018, 1044)", ContrastBolusTotalDose,0.0,,j
+"(0018, 1046)", ContrastFlowRate,0.0,,j
+"(0018, 1047)", ContrastFlowDuration,0.0,,j
+"(0018, 1049)", ContrastBolusIngredientConcentration,300.0,,j
+"(0018, 9302)", AcquisitionType,SPIRAL,,j
+"(0018, 9323)", ExposureModulationType,3D MODULATION,,j
+"(0018, 9324)", EstimatedDoseSaving,14.0,,j
+"(0018, 9345)", CTDIvol,20.675428571428572,,j
+"(0018, 1016)", SecondaryCaptureDeviceManufacturer,Philips,,j
+"(0018, 1018)", SecondaryCaptureDeviceManufacturerModelName,IQon - Spectral CT,,j
+"(0040, 0301)", TotalNumberOfExposures,6.0,,j
+"(0040, 0310)", CommentsOnRadiationDose,"TotalDLP=846.87
+Event=1 DLP=1.5
+Event=2 DLP=1.5
+Event=3 DLP=196.33
+Event=4 DLP=230.04
+Event=5 DLP=360.11
+Event=6 DLP=57.39",,j
+"(0028, 0106)", SmallestImagePixelValue,-1999.0,,j
+"(0028, 0107)", LargestImagePixelValue,2508.0,,j
+"(0008, 001b)", OriginalSpecializedSOPClassUID,1.3.12.2.1107.5.99.3.10,,j
+"(0018, 0020)", ScanningSequence,,,j
+"(0018, 0021)", SequenceVariant,,,j
+"(0018, 0023)", MRAcquisitionType,,,j
+"(0018, 0024)", SequenceName,,,j
+"(0018, 0025)", AngioFlag,,,j
+"(0018, 0080)", RepetitionTime,,,j
+"(0018, 0081)", EchoTime,,,j
+"(0018, 0082)", InversionTime,,,j
+"(0018, 0083)", NumberOfAverages,,,j
+"(0018, 0084)", ImagingFrequency,,,j
+"(0018, 0085)", ImagedNucleus,,,j
+"(0018, 0086)", EchoNumbers,,,j
+"(0018, 0087)", MagneticFieldStrength,,,j
+"(0018, 0091)", EchoTrainLength,,,j
+"(0018, 1250)", ReceiveCoilName,,,j
+"(0020, 0011)", SeriesNumber,606.0,,j
+"(0020, 0013)", InstanceNumber,71.0,,j
+"(0010, 0040)", PatientSex,F,,j
+"(0002, 0001)", FileMetaInformationVersion,b'\x00\x01',,j
+"(0002, 0002)", MediaStorageSOPClassUID,1.2.840.10008.5.1.4.1.1.2,,j
+"(0002, 0003)", MediaStorageSOPInstanceUID,1.2.840.113619.2.55.3.279764967.963.1630584547.547.1,,j
+"(0002, 0010)", TransferSyntaxUID,1.2.840.10008.1.2.4.70,,j
+"(0002, 0012)", ImplementationClassUID,1.2.276.0.7238010.5.0.3.5.4,,j
+"(0002, 0013)", ImplementationVersionName,OSIRIX,,j
+"(0018, 9318)", ReconstructionTargetCenterPatient,"[-11.836999999999977, -297.119, 949.531]",,j
+"(0020, 1040)", PositionReferenceIndicator,SN,,j
+"(0018, 9318)", ReconstructionTargetCenterPatient,"[-11.836999999999977, -297.119, 949.531]",,j
+"(0020, 1040)", PositionReferenceIndicator,SN,,j
+"(0018, 9303)", TubeAngle,0.0,,j
+"(0018, 9327)", TablePosition,316.0,,j
+"(0020, 0020)", PatientOrientation,"['L', 'P']",,j
+"(0020, 0037)", ImageOrientationPatient,"[1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]",,j
