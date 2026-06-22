@@ -36,3 +36,15 @@ This function expects a pandas datframe containing the columns specified in "fil
 Please make sure the column names match.
 If the information required for filtering is not available to you, set the "ignore" flag in the function call.
 To modify the behaviour of the function please reference available options and documentation in the function itself.
+
+
+## DICOM anonymization
+Name: anonymize.py and associated scripts
+
+Description: Tool for anonymizing DICOM files that replaces Patient ID, Patient Name, Accession Number, Series Date, and Study Date. The file fields_to_keep.csv regulates which DICOM tags are retained.
+
+
+## DICOM metadata browse
+Name: browse.py and associated scripts
+
+Description: Tool for extracting DICOM metadata from image files. All tags associated with the file will be extracted and output as a .csv file.
